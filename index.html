@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mundinho Kids | Personagens Vivos</title>
+  <meta name="description" content="Mundinho Kids - personagens vivos para festas infantis em São José do Rio Preto e região." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700;800&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg-bubbles" aria-hidden="true">
+    <span></span><span></span><span></span><span></span><span></span><span></span>
+  </div>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a href="#topo" class="brand">
+        <div class="brand-logo-fake">MK</div>
+        <div>
+          <strong>Mundinho Kids</strong>
+        </div>
+      </a>
+      <nav class="menu">
+        <a href="#sobre">Minha Historia</a>
+        <a href="#destaques">Destaques</a>
+        <a href="#catalogo">Temas</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="topo">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <span class="tag">Personagens vivos para festas infantis</span>
+          <h1>Seu evento mais <span>colorido</span>, divertido e inesquecível.</h1>
+          <p>
+            A <strong>Mundinho Kids leva personagens vivos para transformar aniversários e eventos em momentos cheios de alegria, encanto e fotos lindas para guardar.
+          </p>
+          <div class="hero-actions">
+            <a href="#catalogo" class="btn btn-primary">Ver temas</a>
+            <a href="#sobre" class="btn btn-secondary">Conhecer a empresa</a>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="hero-card-badge">Atendimento em São José do Rio Preto e Região</div>
+          <div class="hero-mini-grid" id="heroMiniGrid"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="info-strip">
+      <div class="container info-strip-grid">
+        <div class="pill">✨ Presença encantadora</div>
+        <div class="pill">🎉 Temas variados</div>
+        <div class="pill">📸 Fotos marcantes</div>
+        <div class="pill">💖 Experiência inesquecível</div>
+      </div>
+    </section>
+
+    <section class="section" id="sobre">
+  <div class="container about">
+
+    <div class="section-heading left">
+      <span class="eyebrow">Minha Historia</span>
+
+      <div class="historia-card">
+        <img src="assets/sobre/1.jpeg" alt="Ana Paula e família" class="historia-foto">
+
+        <div class="historia-texto">
+          <p>
+            Há cerca de 10 anos nasceu o Mundinho Kids, em uma brincadeira na escola dos meus filhos começou simples para levar alegria às crianças acabou despertando em mim um propósito.
+          </p>
+
+          <p>
+            Com criatividade, dedicação e muito amor pelo que faço, fui criando personagens, figurinos e experiências que levam magia e encantamento para festas e eventos.
+          </p>
+
+          <p>
+            Hoje o Mundinho Kids é a realização de um sonho que nasceu de algo de uma mãe, mas que cresceu com propósito: espalhar alegria, imaginação e momentos inesquecíveis para muitas famílias.
+          </p>
+
+          <p>
+            Sou muito grata a Deus por poder viver esse propósito e transformar alegria em profissão.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-boxes">
+      <article class="about-box">
+        <h3>Missão</h3>
+        <p>Levar alegria, imaginação e encantamento para festas e eventos com personagens vivos que criam momentos especiais e inesquecíveis.</p>
+      </article>
+
+      <article class="about-box">
+        <h3>Visão</h3>
+        <p>Ser referência em animação infantil em São José do Rio Preto e região, transformando cada evento em uma experiência mágica para as famílias.</p>
+      </article>
+
+      <article class="about-box">
+        <h3>Valores</h3>
+        <p>Amor pelo que fazemos, criatividade, dedicação, respeito às famílias, compromisso com a alegria e gratidão a Deus por esse propósito.</p>
+      </article>
+    </div>
+
+  </div>
+</section>
+
+    <section class="section section-highlight" id="destaques">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">Temas em destaque</span>
+          <h2>Os queridinhos que fazem sucesso nas festas</h2>
+          <p>Selecionamos alguns dos temas mais famosos e visualmente marcantes do catálogo.</p>
+        </div>
+        <div class="highlight-grid" id="highlightGrid"></div>
+      </div>
+    </section>
+
+    <section class="section" id="catalogo">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">Catálogo completo</span>
+          <h2>Escolha o tema ideal para sua festa</h2>
+          <p>
+            Abaixo você encontra os temas organizados em um feed visual. Clique em qualquer card para abrir a página dedicada daquele tema com fotos maiores e descrição.
+          </p>
+        </div>
+
+        <div class="catalog-toolbar">
+          <input type="text" id="searchInput" placeholder="Pesquisar tema..." aria-label="Pesquisar tema">
+          <span id="catalogCount"></span>
+        </div>
+
+        <div class="feed-grid" id="feedGrid"></div>
+      </div>
+    </section>
+  </main>
+
+  <a href="#" class="floating-btn whatsapp" aria-label="WhatsApp" title="Faça seu orçamento">
+    <span>✆</span>
+  </a>
+
+  
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div>
+        <strong>Mundinho Kids</strong>
+        <p>Personagens vivos para festas infantis em São José do Rio Preto e Região.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
